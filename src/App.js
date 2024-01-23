@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import Header from './Header.js'
+import ImageTextSection from './ImageTextSection.js'
+import Home from './Home.js'
+import Service from './ServiceSection.js'
+import ServiceSecond from './ServiceSection2.js'
+import PriceSection from './PriceSection.js'
+import AdvantageSection from './AdvantageSection.js'
+import FeedBack from './FeedBack.js'
+import About from './About.js'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+        <div>
+          <Header />
+          <ImageTextSection />
+          <Home />
+          <Service />
+          <ServiceSecond />
+          <PriceSection/>
+          <AdvantageSection />
+          <FeedBack />
+          <About />
+        </div>
+);
 }
 
 export default App;
