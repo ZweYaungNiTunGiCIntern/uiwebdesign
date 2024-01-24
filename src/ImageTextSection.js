@@ -7,12 +7,15 @@ export default function ImageTextSection() {
     <div class="container">
     <div className="row align-items-center">
     <div className="col-lg-4">
-        <h1 class="display-8">GIC Myanmar</h1>
-        <p>The GIC Group consists of three companies, Japan (Global Innovation Consulting Inc. as GIC), Myanmar (GIC Myanmar Co., Ltd ., as GICM), and US (GIC Silicon Valley Lab Inc ., as GSVL). Our main business is offshore system development in Japan/Myanmar, including LAB-type and contract development. In the US, we also play a role in conducting various investigations on advanced cases such as DX and IoT.</p>
+        <h1 class="display-8">Promote Your Products by Colorlib</h1>
+        <p>
+        Another cool free html css template by Colorlib Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+        </p>
         <div className="justify-content-between">
-            <button class="btn btn-sm btn-outline-primary">See Features</button>
+          <button class="btn rounded-5  btn-primary">See Features</button>
+            
         
-            <button class="btn btn-sm btn-outline-primary">Pricing</button>
+          <button class="btn rounded-5 btn-outline-primary">Pricing</button>
         </div>
         
     </div>

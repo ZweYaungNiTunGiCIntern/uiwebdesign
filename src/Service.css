@@ -1,0 +1,104 @@
+.service-icon1{
+    background-color: #6fe7dd;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .service-icon2{
+    background-color: #ffc93c;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .service-icon3{
+    background-color: #f73859;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .service-icon4{
+    background-color: #407BFF;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .service{
+    margin-right: 20px;
+  }
+  .color{
+    color: #939393;
+  }
+  .site-footer{
+    background-color: #EFEFEF;
+  }
+  .site-footer {
+    background: #efefef;
+    font-size: 14px;
+    color: #888;
+    padding: 70px 0;
+   
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.social{
+    display: inline-block;
+}
+.text2{
+    text-decoration: none;
+    color: #888;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #777777;
+    color: #eee;
+    border-radius: 50%;
+}
+.post-meta{
+    margin-left:10px;
+    line-height: 1.4;
+}
+.news-item{
+    
+    font-size: 14px;
+    color: #888;
+    padding: 70px 0;
+}
+.meta1{
+    color: #888;
+}
+/* Add this CSS to set the background color of the SVG */
+
+  
+  /* Add this CSS to style the SVG itself */
+  /* Additional styles for better visibility and spacing */
+  
+  .d-flex {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  /* Styles for the left arrow */
+  .js-custom-prev-v2 {
+    margin-right: 10px; /* Add some margin for spacing */
+  }
+  
+  /* Styles for the right arrow */
+  .js-custom-next-v2 {
+    margin-left: 10px; /* Add some margin for spacing */
+  }
+.js-custom-prev-v2,
+.js-custom-next-v2 {
+  background-color: #B8B8B8; /* Set your primary background color */
+  color: #fff; /* Set text color to white for better visibility */
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  text-decoration: none; /* Remove underline from links */
+}

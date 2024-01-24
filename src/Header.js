@@ -41,11 +41,11 @@ export default function Header() {
                 <form class="d-flex">
                     <div className="row justify-content-between">
                     <div className="col">
-                    <button class="btn rounded-5 btn-sm btn-outline-dark">Sing in</button>
+                    <button class="btn btn-sm rounded-5 btn-outline-dark">Sing in</button>
                     </div>
                     
                     <div className="col">
-                    <button class="btn rounded-5 btn-sm btn-outline-dark">Register</button>
+                    <button class="btn rounded-5 btn-sm btn-primary">Register</button>
                     </div>
                     </div>
                    

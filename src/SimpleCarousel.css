@@ -1,0 +1,26 @@
+.simple-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+  }
+  
+  .carousel-control {
+    cursor: pointer;
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+  }
+  

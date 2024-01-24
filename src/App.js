@@ -5,12 +5,14 @@ import Service from './ServiceSection.js'
 import ServiceSecond from './ServiceSection2.js'
 import PriceSection from './PriceSection.js'
 import AdvantageSection from './AdvantageSection.js'
-import FeedBack from './FeedBack.js'
+import SimpleCarousel from './FeedBack.js'
 import About from './About.js'
+import OurNews from './OurNewsSection.js'
+import GetInTouch from './GetInTouchSection.js'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
-
+import Footer from './Footer.js'
 function App() {
   return (
 
@@ -22,8 +24,11 @@ function App() {
           <ServiceSecond />
           <PriceSection/>
           <AdvantageSection />
-          <FeedBack />
+          <SimpleCarousel />
           <About />
+          <OurNews />
+          <GetInTouch />
+          <Footer />
         </div>
 );
 }
