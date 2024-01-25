@@ -1,14 +1,22 @@
-import React from 'react'
+
 import person1 from "./person_1.jpg.webp"
 import person2 from "./person_2.jpg.webp"
-
+import React, {useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import person3 from "./person_3.jpg.webp"
 export default function OurNewsSection() {
+    useEffect(() => {
+        Aos.init({
+          duration: 1000, // Animation duration
+          offset: 200,    // Offset (in pixels) from the top of the document
+        });
+      }, []);
   return (
     
         <div className="container mt-5 mb-5 bg-light">
             <div className="row mb-4">
-                <div className="col-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                <div className="col-12 text-center aos-init aos-animate mt-5" data-aos="fade-up" data-aos-delay="0">
                     <h2 className="heading">Our News</h2>
                     <p>Far from the countries Vokalia and Consonantia</p>
                 </div>
@@ -51,7 +59,7 @@ export default function OurNewsSection() {
                 </div>
                 <div className="news-contents mb-4 ">
                     <span className="post-meta-2">Digital Service, 4 min read</span>
-                    <h3><a href="#" className="text-decoration-none text-dark">Far far away behind the word mountains far from the countries</a></h3>
+                    <h5><a href="#" className="text-decoration-none meta1">Far far away behind the word mountains far from the countries</a></h5>
                 </div>
                 <p className="mb-0">
                 <a href="#" className="read-more-arrow">
@@ -75,7 +83,7 @@ export default function OurNewsSection() {
                     </div>
                     <div className="news-contents mb-4 mt-4">
                         <span className="post-meta-2">Digital Service, 4 min read</span>
-                        <h3><a href="#" className="text-decoration-none text-dark mt-4">Far far away behind the word mountains far from the countries</a></h3>
+                        <h5><a href="#" className="text-decoration-none meta1">Far far away behind the word mountains far from the countries</a></h5>
                     </div>
                         <p className="mb-0"><a href="#" className="read-more-arrow">
                         <svg className="bi bi-arrow-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

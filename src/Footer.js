@@ -33,32 +33,32 @@ export default function Footer() {
                     <div className="widget">
                         <h3>Projects</h3>
                         <ul className="list-unstyled float-left links ">
-                            <li><a href="#" className="text2">La Lega Stadium</a></li>
-                            <li><a href="#"  className="text2" >France Building</a></li>
-                            <li><a href="#" className=" text2" >22 New Homes</a></li>
-                            <li><a href="#" className="text2">Manage Center</a></li>
-                            <li><a href="#" className="text2" >Sports Hall</a></li>
+                        <div className="mb-2"><a href="#" className="text2">La Lega Stadium</a></div>
+                        <div className="mb-2"><a href="#"  className="text2" >France Building</a></div>
+                        <div className="mb-2"><a href="#" className=" text2" >22 New Homes</a></div>
+                        <div className="mb-2"><a href="#" className="text2">Manage Center</a></div>
+                        <div className="mb-2"><a href="#" className="text2" >Sports Hall</a></div>
                         </ul>
                     </div> 
                 </div> 
                 <div className="col-lg-2">
                     <div className="widget">
                         <h3>Services</h3>
-                        <ul className="list-unstyled float-left links">
-                            <li><a href="#" className=" text2" >Architect</a></li>
-                            <li><a href="#" className=" text2" >Interior Design</a></li>
-                            <li><a href="#" className=" text2">Landscape Design</a></li>
-                            <li><a href="#" className=" text2">Consultancy</a></li>
-                        </ul>
+                        
+                        <div className="mb-2"><a href="#" className=" text2" >Architect</a></div>
+                        <div className="mb-2"><a href="#" className=" text2" >Interior Design</a></div>
+                        <div className="mb-2"><a href="#" className=" text2">Landscape Design</a></div>
+                        <div className="mb-2"><a href="#" className=" text2">Consultancy</a></div>
+                        
                     </div> 
                 </div> 
             <div className="col-lg-3">
                 <div className="widget">
                     <h3>Contact</h3>
                     <address>43 Raymouth Rd. Baltemoer, London 3910</address>
-                    <div className="mt-4 mb-4"><a href="tel://11234567890" className=" text2 mb-4">+1(123)-456-7890</a></div>
-                    <div className="mt-4 mb-4" ><a href="tel://11234567890" className=" text2 mb-4">+1(123)-456-7890</a></div>
-                    <div className="mt-4 mb-4"><a href="mailto:info@mydomain.com" className=" text2 mb-4" >info@mydomain.com</a></div>
+                    <div className=""><a href="tel://11234567890" className=" text2 mb-2">+1(123)-456-7890</a></div>
+                    <div className="" ><a href="tel://11234567890" className=" text2 mb-2">+1(123)-456-7890</a></div>
+                    <div className=""><a href="mailto:info@mydomain.com" className=" text2 mb-2" >info@mydomain.com</a></div>
                     
                 </div> 
             </div> 
