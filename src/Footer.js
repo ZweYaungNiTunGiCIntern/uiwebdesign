@@ -9,7 +9,6 @@ import './Service.css'
 export default function Footer() {
   return (
     <div className="site-footer bg-secondry mt-5">
-
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">
