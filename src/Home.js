@@ -14,7 +14,7 @@ export default function Home() {
     <div className="mt-5 p-5">
         <div class="container">
             <div className="row justify-item-center">
-                <div className="col-lg-4">
+                <div className="col-md-4">
                     
                     <h3 className="display=5">Selling Digital Services</h3>
                     <div className="mb-4" data-aos="fade-up" data-aos-once="true" data-aos-duration="1100">
@@ -50,7 +50,7 @@ export default function Home() {
                         </div>
                     </div>  
                 </div>
-                <div className="col-lg-7">
+                <div className="col-md-7">
                     <img src={mbm} alt="Image Description" class="img-fluid" />
                 </div>
             </div>
