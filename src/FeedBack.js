@@ -47,6 +47,7 @@ export default function FeedBack() {
                       </div>
                     </div>
                   </div>
+
                   <div className="col-md-6">
                     <p className="fst-italic mb-3">“Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</p>
                     <div className="row">
@@ -75,6 +76,7 @@ export default function FeedBack() {
                       </div>
                     </div>
                   </div>
+
                   <div className="col-md-6">
                     <p className="fst-italic mb-3">“Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</p>
                     <div className="row">
@@ -105,3 +107,4 @@ export default function FeedBack() {
     </>
   );
 }
+
