@@ -10,7 +10,7 @@ export default function About() {
         });
       }, []);
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 pt-5">
         <div className="row justify-content-between">
             <div className="col-lg-8 mt-5" data-aos="fade-up" data-aos-delay="100">
                 <img src={about} alt="Image" className="img-fluid" />

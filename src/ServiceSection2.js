@@ -10,7 +10,7 @@ export default function ServiceSection2() {
         });
       }, []);
     return (
-            <div class="container mt-5 mb-5">
+            <div class="container mt-5 mb-5 pt-5 mt-5">
                 <div class="row">
                     <div class="col-md-6 mb-4 mb-lg-0 col-lg-3" data-aos="fade-up" data-aos-delay="0">
                         <div class="service">

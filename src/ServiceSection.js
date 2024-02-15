@@ -2,9 +2,9 @@ import React from "react";
 
 import dashboard from "./dashboard.jpg";
 import "./Service.css"
-export default function ServiceDashboard() {
+export default function ServiceSection() {
   return (
-        <div className="container p-3 mt-3">
+        <div className="container mt-5 pt-5">
           <div className="row justify-content-between align-items-center">
         
             <div

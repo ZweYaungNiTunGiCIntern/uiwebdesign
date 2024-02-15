@@ -1,8 +1,9 @@
 import React from 'react'
-
+import "./Service.css"
+import { Link } from 'react-router-dom';
 export default function Header() {
   return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondry fixed-top straw">
         
             <div className="container">
                 <a className="navbar-brand text-bold" href="#">Launch.</a>
@@ -12,15 +13,15 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <Link className="nav-link active" to="/home" aria-current="page" href="#">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Feature</a>
+                            <Link className="nav-link" to="/service" href="#">Feature</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
                                 <li><a className="dropdown-item" href="#">Testinomiala</a></li>
                                 <li><a className="dropdown-item" href="#">Menu 2</a></li>
@@ -29,13 +30,16 @@ export default function Header() {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
+                            <Link className="nav-link" to="/price" href="#">Pricing</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <Link className="nav-link" to="/about" href="#">About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <Link className="nav-link" to="/touch" href="#">Contact</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/feedback" href="#">Feedback</Link>
                         </li>
                     </ul>
                     <form className="d-flex">

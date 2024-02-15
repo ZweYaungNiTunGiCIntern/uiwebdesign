@@ -14,7 +14,7 @@ export default function OurNewsSection() {
       }, []);
   return (
     
-        <div className="container mt-5 mb-5 bg-light">
+        <div className="container mt-5 mb-5 pt-5 bg-light">
             <div className="row mb-4">
                 <div className="col-12 text-center aos-init aos-animate mt-5" data-aos="fade-up" data-aos-delay="0">
                     <h2 className="heading">Our News</h2>
